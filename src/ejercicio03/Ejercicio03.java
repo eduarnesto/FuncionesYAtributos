@@ -21,10 +21,7 @@ public class Ejercicio03 {
 		// Llamo a la función del menú
 		opc = menu();
 
-		while (opc != 0)
-
-			// Llamo a la función del menú
-			opc = menu();
+		while (opc != 0) {
 
 		radio = pideRadio();
 
@@ -42,6 +39,11 @@ public class Ejercicio03 {
 		// Muestro el resultado de la operación
 		System.out.println("El resultado de la operación es: " + res);
 
+		// Llamo a la función del menú
+		opc = menu();
+		}
+		System.out.println("Saliendo...");
+		
 		sc.close();
 	}
 

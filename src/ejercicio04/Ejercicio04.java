@@ -14,15 +14,13 @@ public class Ejercicio04 {
 		// Variable para el radio de la base, la altura y el resultado
 		double radioBase = 0, altura = 0, res = 0;
 
+		//Variable para llamar al objeto
 		Cilindro operacion;
 
 		// Llamo a la función del menú
 		opc = menu();
 
-		while (opc != 0)
-
-			// Llamo a la función del menú
-			opc = menu();
+		while (opc != 0) {
 
 		radioBase = pideRadioBase();
 
@@ -41,7 +39,12 @@ public class Ejercicio04 {
 
 		// Muestro el resultado de la operación
 		System.out.println("El resultado de la operación es: " + res);
-
+		
+		// Llamo a la función del menú
+		opc = menu();
+		}
+		System.out.println("Saliendo");
+		
 		sc.close();
 	}
 

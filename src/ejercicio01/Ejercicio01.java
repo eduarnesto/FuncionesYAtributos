@@ -21,10 +21,7 @@ public class Ejercicio01 {
 		opc = menu();
 
 		while (opc != 0) {
-
-			// Llamo a la función del menú
-			opc = menu();
-
+			
 			// Lamo a la funcion pedir número
 			num1 = pideNumero();
 			num2 = pideNumero();
@@ -55,8 +52,12 @@ public class Ejercicio01 {
 			// Muestro el resultado de la operación
 			System.out.println("El resultado de la operación es: " + res);
 
-		}
-		sc.close();
+			// Llamo a la función del menú
+			opc = menu();
+			}
+			System.out.println("Saliendo...");
+			
+			sc.close();
 	}
 
 	public static int menu() {
