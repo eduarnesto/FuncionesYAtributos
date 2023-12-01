@@ -15,6 +15,7 @@ public class Ejercicio03 {
 		// Variable para el ancho, el alto y el resultado
 		double radio = 0, res = 0;
 
+		//Variable para llamar al objeto
 		Circulo operacion;
 
 		// Llamo a la función del menú

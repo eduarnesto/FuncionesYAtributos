@@ -13,6 +13,9 @@ public class Ejercicio01 {
 
 		// Variable para los dos números y el resultado
 		double num1, num2, res = 0;
+		
+		//Variable para llamar al objeto
+		Operaciones operacion;
 
 		// Llamo a la función del menú
 		opc = menu();
@@ -27,7 +30,7 @@ public class Ejercicio01 {
 			num2 = pideNumero();
 
 			// Hago la operación que me pida el usuario
-			Operaciones operacion = new Operaciones(num1, num2);
+			operacion = new Operaciones(num1, num2);
 			switch (opc) {
 			case 1 -> {
 				res = operacion.suma();

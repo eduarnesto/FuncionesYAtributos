@@ -14,6 +14,9 @@ public class Ejercicio02 {
 		// Variable para el ancho, el alto y el resultado
 		double ancho = 0, alto = 0, res = 0;
 
+		//Variable para llamar al objeto
+		Rectangulo operacion;
+		
 		// Llamo a la función del menú
 		opc = menu();
 
@@ -24,7 +27,7 @@ public class Ejercicio02 {
 		ancho = pideAncho();
 		alto = pideAlto();
 
-		Rectangulo operacion = new Rectangulo(alto, ancho);
+		operacion = new Rectangulo(alto, ancho);
 
 		switch (opc) {
 		case 1 -> {
