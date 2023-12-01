@@ -43,7 +43,7 @@ public class Ejercicio04 {
 		// Llamo a la función del menú
 		opc = menu();
 		}
-		System.out.println("Saliendo");
+		System.out.println("Saliendo...");
 		
 		sc.close();
 	}
